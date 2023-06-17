@@ -1,8 +1,10 @@
+@import 'variables';
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 100px;
+    min-height: 10vh;
 
     @media (max-width: 768px) {
         flex-direction: column;
@@ -14,14 +16,14 @@ header {
     justify-content: flex-end;
     align-items: center;
     flex-basis: 20%;
-    height: 100%;
+    height: $logo-height;
+    width: $logo-width;
     text-align: center;
     color: $white-color;
 
     &__first-txt {
         background: $red-color;
         padding: 1rem;
-        width: 120px;
     }
 
     &__second-txt {
