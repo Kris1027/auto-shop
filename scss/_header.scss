@@ -1,0 +1,64 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 20%;
+    height: 100%;
+    text-align: center;
+    color: $white-color;
+
+    &__first-txt {
+        background: $red-color;
+        padding: 1rem;
+        width: 120px;
+    }
+
+    &__second-txt {
+        display: block;
+        text-transform: uppercase;
+        font-weight: 700;
+        &:hover {
+            color: goldenrod;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 80%;
+    height: 100%;
+    
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        padding: 1rem;
+        font-size: 2rem;
+
+        @media (max-width: 768px) {
+            font-size: 2rem;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $black-color;
+        &:hover {
+            color: $red-color;
+        }
+    }
+}

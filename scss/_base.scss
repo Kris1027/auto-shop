@@ -1,0 +1,18 @@
+@import 'variables';
+
+body {
+    background: $black-color;
+}
+
+.wrapper {
+    margin: 0 auto;
+    min-width: 375px;
+    max-width: 1024px;
+    background: $dirtyWhite-color;
+
+    @media (min-width: 1024px) {
+        max-width: $max-width;
+    }
+}
+
+    
