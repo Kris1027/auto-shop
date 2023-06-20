@@ -1,15 +1,11 @@
 @import 'variables';
 
-body {
-    background: $gray-color;
-}
-
 .wrapper {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
-    height: 100vh;
     min-width: 375px;
     max-width: 1024px;
-    background: $dirtyWhite-color;
 }
 
     
