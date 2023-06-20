@@ -1,11 +1,19 @@
 @import 'variables';
 
+body {
+    background-color: #e8b135;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     min-width: 375px;
     max-width: 1024px;
+
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
 }
 
     
