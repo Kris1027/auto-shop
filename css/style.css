@@ -91,6 +91,7 @@ header {
   width: 120px;
   text-align: center;
   color: #FFFFFF;
+  cursor: pointer;
 }
 .logo__first-txt {
   background: #D90429;

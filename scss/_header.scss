@@ -21,6 +21,7 @@ header {
     width: $logo-width;
     text-align: center;
     color: $white-color;
+    cursor: pointer;
 
     &__first-txt {
         background: $red-color;
