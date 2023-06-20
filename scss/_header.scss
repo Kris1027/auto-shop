@@ -5,6 +5,7 @@ header {
     justify-content: space-between;
     align-items: center;
     min-height: 10vh;
+    background-color: #e8b135;
 
     @media (max-width: 768px) {
         flex-direction: column;

@@ -2,7 +2,7 @@
 
 .footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 20vh;
     width: 100%;
     color: $white-color;
@@ -20,11 +20,33 @@
         width: 100%;
         height: 100%;
         font-size: 2rem;
+        font-weight: 700;
         text-transform: uppercase;
         background-color: $red-color;
     }
 
     &__links {
+        flex-grow: 1;
         display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__menu-title {
+        font-weight: 700;
+        font-size: 1.3rem;
+        margin-bottom: .5rem;
+    }
+
+    &__menu-item {
+        margin-bottom: .2rem;
+    }
+
+    &__menu-link {
+        text-decoration: none;
+        color: $white-color;
+        opacity: .5;
+        &:hover {
+            opacity: .8;
+        }
     }
 }

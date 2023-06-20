@@ -78,6 +78,7 @@ header {
   justify-content: space-between;
   align-items: center;
   min-height: 10vh;
+  background-color: #e8b135;
 }
 @media (max-width: 768px) {
   header {
@@ -136,12 +137,15 @@ header {
 }
 
 main {
-  height: 70vh;
+  background-image: url("/img/main.png");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
 }
 
 .footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: 20vh;
   width: 100%;
   color: #FFFFFF;
@@ -158,9 +162,28 @@ main {
   width: 100%;
   height: 100%;
   font-size: 2rem;
+  font-weight: 700;
   text-transform: uppercase;
   background-color: #D90429;
 }
 .footer__links {
+  flex-grow: 1;
   display: flex;
+  justify-content: space-evenly;
+}
+.footer__menu-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.footer__menu-item {
+  margin-bottom: 0.2rem;
+}
+.footer__menu-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.footer__menu-link:hover {
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */
