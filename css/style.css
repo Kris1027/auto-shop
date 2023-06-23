@@ -147,6 +147,29 @@ main {
   height: 92vh;
 }
 
+@media (max-width: 768px) {
+  main {
+    height: 80vh;
+  }
+}
+@media (max-width: 650px) {
+  main {
+    height: 65vh;
+  }
+}
+@media (max-width: 425px) {
+  main {
+    height: 40vh;
+    background-size: cover;
+  }
+}
+@media (max-width: 375px) {
+  main {
+    height: 35vh;
+    background-size: cover;
+    background-position: top;
+  }
+}
 .footer {
   display: flex;
   justify-content: space-between;
